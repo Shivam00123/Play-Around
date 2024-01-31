@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.a {
+  grid-column: col1-start / col4-start;
+  grid-row: row1-start / row3-start;
+}
+.b {
+  grid-column: col4-start;
+  grid-row: row1-start / row3-start;
+}
+.c {
+  grid-column: col1-start / col2-start;
+  grid-row: row3-start;
+}
+.d {
+  grid-column: col2-start / col4-end;
+  grid-row: row3-start;
+}
+
+.mobilea {
+  grid-column: col1-start / col2-end;
+  grid-row: row1-start / row3-start;
+}
+.mobileb {
+  grid-column: col1-start / col2-end;
+  grid-row: row3-start / row4-start;
+}
+.mobilec {
+  grid-column: col1-start / col2-start;
+  grid-row: row4-start;
+}
+.mobiled {
+  grid-column: col2-start / col2-end;
+  grid-row: row4-start;
+}
+#container {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#container:focus {
+  outline: none !important;
+}
+
+/* ====================================== carousel */
+
+.slick-track {
+  display: flex;
+}
+.slick-slider {
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-dots li {
+  z-index: 50;
+  transform: translateY(-20%);
+}
+
+.slick-dots li.slick-active {
+  color: #fff;
+}
+.slick-dots li button:before {
+  color: #fff;
+  font-size: 10px;
+}
+.slick-dots li.slick-active button:before {
+  color: #fff;
+}
+
+.whoweare .slick-dots li {
+  transform: translateY(-110%);
+}
+
+.foundercarousel .slick-dots li {
+  transform: translateY(-20%);
+}
+
+.mobilecarousel .slick-dots li button:before {
+  font-size: 8px;
+}
+
+.foundermobile .slick-dots li {
+  transform: translateY(70%);
+}
+
+.foundermobile .slick-dots li button:before {
+  font-size: 6px;
+}
+
+@media screen and (max-width: 320px) {
+  .slick-dots li {
+    transform: translateY(120%);
+  }
+  .slick-dots li button:before {
+    font-size: 5px;
+  }
+}
+
+.slick-slide {
+  padding-right: 8px;
+  outline: none;
+}
+
+.slick-list {
+  margin: 0 0px;
+}
+
+.slick-prev {
+  width: 50px;
+  left: 0;
+  top: 20%;
+  position: absolute;
+  height: 50px;
+  background: tomato;
+  z-index: 1;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.slick-next {
+  width: 50px;
+  right: 0;
+  top: 20%;
+  position: absolute;
+  height: 50px;
+  background: tomato;
+  z-index: 1;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.slick-prev:focus,
+.slick-prev:hover,
+.slick-next:hover,
+.slick-next:focus {
+  color: transparent;
+  outline: none;
+  background: tomato;
+}
+.product-actions {
+  display: flex;
+  justify-content: space-between;
+}

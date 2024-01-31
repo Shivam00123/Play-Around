@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="71" height="72" viewBox="0 0 71 72">
+  <g id="Group_7" data-name="Group 7" transform="translate(-0.437 0.281)">
+    <g id="Rectangle_660" data-name="Rectangle 660" transform="translate(0.437 -0.281)" fill="#fff" stroke="#85d4be" stroke-width="2">
+      <rect width="71" height="72" rx="25" stroke="none"/>
+      <rect x="1" y="1" width="69" height="70" rx="24" fill="none"/>
+    </g>
+    <g id="Icon_ionic-ios-mail" data-name="Icon ionic-ios-mail" transform="translate(14.552 21.167)">
+      <path id="Path_1" data-name="Path 1" d="M45.875,10.377,34.792,21.666a.2.2,0,0,0,0,.288l7.756,8.261a1.337,1.337,0,0,1,0,1.9,1.343,1.343,0,0,1-1.9,0l-7.725-8.23a.211.211,0,0,0-.3,0L30.743,25.8a8.293,8.293,0,0,1-5.912,2.493,8.46,8.46,0,0,1-6.036-2.565l-1.813-1.844a.211.211,0,0,0-.3,0l-7.725,8.23a1.343,1.343,0,0,1-1.9,0,1.337,1.337,0,0,1,0-1.9l7.756-8.261a.219.219,0,0,0,0-.288L3.725,10.377a.2.2,0,0,0-.35.144V33.11a3.306,3.306,0,0,0,3.3,3.3H42.929a3.306,3.306,0,0,0,3.3-3.3V10.521A.206.206,0,0,0,45.875,10.377Z" transform="translate(-3.375 -6.741)" fill="#85d4be"/>
+      <path id="Path_2" data-name="Path 2" d="M24.4,26.735a5.6,5.6,0,0,0,4.027-1.689L44.593,8.6a3.237,3.237,0,0,0-2.039-.721H6.265a3.216,3.216,0,0,0-2.04.721l16.161,16.45A5.6,5.6,0,0,0,24.4,26.735Z" transform="translate(-2.979 -7.875)" fill="#85d4be"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <g id="Group_5" data-name="Group 5" transform="translate(0.281 0.281)">
+    <g id="Rectangle_658" data-name="Rectangle 658" transform="translate(-0.281 -0.281)" fill="#fff" stroke="#85d4be" stroke-width="2">
+      <rect width="72" height="72" rx="25" stroke="none"/>
+      <rect x="1" y="1" width="70" height="70" rx="24" fill="none"/>
+    </g>
+    <path id="Icon_awesome-youtube" data-name="Icon awesome-youtube" d="M46.647,9.623A5.852,5.852,0,0,0,42.53,5.479C38.9,4.5,24.335,4.5,24.335,4.5S9.772,4.5,6.14,5.479A5.852,5.852,0,0,0,2.023,9.623C1.05,13.279,1.05,20.905,1.05,20.905s0,7.627.973,11.282A5.764,5.764,0,0,0,6.14,36.265c3.632.979,18.195.979,18.195.979s14.563,0,18.195-.979a5.764,5.764,0,0,0,4.117-4.078c.973-3.655.973-11.282.973-11.282s0-7.627-.973-11.282ZM19.572,27.83V13.981l12.172,6.925L19.572,27.83Z" transform="translate(10.856 15.344)" fill="#85d4be"/>
+  </g>
+</svg>
